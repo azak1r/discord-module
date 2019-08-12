@@ -1,0 +1,26 @@
+{
+    "name": "azak1r/discord",
+    "type": "laravel-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Joery Pigmans",
+            "email": "dj-joer@hotmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Discord\\Providers\\DiscordServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Discord\\": ""
+        }
+    }
+}
