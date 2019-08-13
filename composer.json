@@ -8,6 +8,10 @@
             "email": "dj-joer@hotmail.com"
         }
     ],
+    "require": {
+        "php": "^7.1.3",
+        "laravel-notification-channels/discord": "*"
+    },
     "extra": {
         "laravel": {
             "providers": [
