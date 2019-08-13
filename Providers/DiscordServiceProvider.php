@@ -44,6 +44,9 @@ class DiscordServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(
             __DIR__.'/../Config/config.php', 'discord'
         );
+        $this->mergeConfigFrom(
+            __DIR__.'/../Config/services.php', 'services'
+        );
     }
 
     /**
