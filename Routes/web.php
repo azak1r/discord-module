@@ -12,5 +12,5 @@
 */
 
 Route::prefix('discord')->group(function() {
-    Route::get('/discord', 'DiscordController@index');
+    Route::get('/', 'DiscordController@index');
 });

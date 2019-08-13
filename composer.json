@@ -23,5 +23,8 @@
             "Modules\\Discord\\": ".",
             "Modules\\": "Modules/"
         }
+    },
+    "require": {
+        "laravel-notification-channels/discord": "^1.0"
     }
 }
